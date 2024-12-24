@@ -26,11 +26,7 @@ blenderproc download cc_textures BlenderProc/resources/
 
 The following command creates 50K training images in BOP format for the given dataset 
 ```
-blenderpoc run examples/datasets/bop_challenge/<name_of_the_dataset>.py 
-               <path_to_bop_data> 
-               resources/cctextures 
-               examples/datasets/bop_challenge/output
-               --num_scenes=2000
+blenderproc run examples/datasets/bop_challenge/husky.py <path_to_your_dataset> resources examples/datasets/bop_challenge/output --num_scenes=20000
 ``` 
 
 * `examples/datasets/bop_challenge/main_<bop_dataset_name>_<random/upright>.py`: path to the python file.
