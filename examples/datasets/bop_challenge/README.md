@@ -24,7 +24,7 @@ Execute in the BlenderProc main directory:
 blenderproc download cc_textures BlenderProc/resources/
 ```
 
-The following command creates 50K training images in BOP format for the given dataset 
+The following command creates 100K training images in BOP format for the given dataset 
 ```
 blenderproc run examples/datasets/bop_challenge/husky.py <path_to_your_dataset> resources examples/datasets/bop_challenge/output --num_scenes=20000
 ``` 
