@@ -21,12 +21,12 @@ Download the necessary [BOP datasets](https://bop.felk.cvut.cz/datasets/). Base 
 Execute in the BlenderProc main directory:
 
 ```
-blenderproc download cc_textures 
+blenderproc download cc_textures BlenderProc/resources/
 ```
 
 The following command creates 50K training images in BOP format for the given dataset 
 ```
-blenderpoc run examples/datasets/bop_challenge/main_<bop_dataset_name>_<random/upright>.py 
+blenderpoc run examples/datasets/bop_challenge/<name_of_the_dataset>.py 
                <path_to_bop_data> 
                resources/cctextures 
                examples/datasets/bop_challenge/output
